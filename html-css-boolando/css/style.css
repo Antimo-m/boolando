@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding:o;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -39,14 +39,20 @@ img{
 
 .logo img{
     height: 25px;
-   
-
 }
 
-.logo{
-    
-}
 
+.cuore{
+    font-size: 2rem;
+    background-color:white ;
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 1px;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 .nav-right i{
     font-size: 18px;
@@ -72,7 +78,7 @@ section{
 .col-30{
     width: 30%;
     margin-top: 30px;
-     position: relative;
+    position: relative;
 }
    
 .discount{
@@ -82,11 +88,6 @@ section{
  color: white;
  background-color: red;
  padding: 2px;
-
-}
-
-p{
-    
 }
 
 .card{
@@ -118,7 +119,7 @@ p{
     
   }
 
-   .green-left{
+  .green-left{
        position: absolute;
        bottom: 50px;
        color: white;
@@ -140,4 +141,27 @@ p{
     color: grey;
    }
 
-   
+   .main-footer{
+    background-color: black;
+    justify-content: space-evenly;
+    display: flex;
+     padding: 50px 50px;  
+     margin: 0;
+   }
+
+   .white{
+    color: white;
+    
+   }
+
+
+
+
+ .booleando{
+    font-size: 22px;
+ }
+
+
+ .mt-5{
+    margin-top: 8px;
+ }
